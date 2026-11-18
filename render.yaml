@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: experiment-8-book-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
